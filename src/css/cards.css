@@ -5,6 +5,7 @@
 .cards .card {
   width: 300px;
   height: 200px;
+  border-radius: 5px;
   transition: all 0.3s ease;
 }
 
@@ -15,7 +16,7 @@
   align-items: center;
   align-content: center;
   z-index: 1;
-  background: #252525;
+  background: #202020;
   transform: translateY(100px);
 }
 
@@ -26,7 +27,7 @@
 
 .cards .card.card-1 .card-head {
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.8;
   transition: 0.5s;
 }
 
