@@ -1,0 +1,90 @@
+.cards {
+  position: relative;
+}
+
+.cards .card {
+  width: 300px;
+  height: 200px;
+  transition: all 0.3s ease;
+}
+
+.cards .card.card-1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 1;
+  background: #252525;
+  transform: translateY(100px);
+}
+
+.cards:hover .card.card-1 {
+  transform: translateX(0);
+  box-shadow: 0 0 10px #252525;
+}
+
+.cards .card.card-1 .card-head {
+  text-align: center;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.cards:hover .card.card-1 .card-head {
+  opacity: 1;
+}
+
+.cards .card.card-1 .card-head h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.cards .card.card-1 .card-head img {
+  border-radius: 50%;
+  width: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cards .card.card-1 .card-head img:hover {
+  transform: scale(1.1);
+}
+
+.cards .card.card-2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: #f7f9f9;
+  transform: translateY(-100px);
+  box-sizing: border-box;
+  box-shadow: 0 0 10px #252525;
+}
+
+.cards:hover .card.card-2 {
+  transform: translateY(0);
+}
+
+.cards .card.card-2 .card-body {
+  text-align: center;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.cards:hover .card.card-2 .card-body {
+  opacity: 1;
+  padding: 10px;
+}
+
+.cards .card.card-2 .card-body h3 {
+  color: #000;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.cards .card.card-2 .card-body p {
+  text-align: justify;
+  padding: 0;
+  font-size: 14px;
+}
